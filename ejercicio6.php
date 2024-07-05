@@ -4,3 +4,11 @@
 // Complejidad: MEDIA (2 puntos)
 
 //Tu código aquí
+
+$num = rand(1,100);
+for ($i=0; $i < $num; $i++) { 
+    echo $i . "<br>";
+}
+for ($i=$num; $i > 0; $i--) { 
+    echo $i . "<br>";
+}

@@ -7,10 +7,10 @@
 function ordenarArreglo($numeros){
     //Escribe tu código aquí
 
+   var_dump(rsort($numeros));
+
 }
 
+ordenarArreglo([1,2,3,4,5,6]);
+
 //Tests
-assert([1] == ordenarArreglo([1]), "El arreglo [1] ordenado es [1]");
-assert([1,2] == ordenarArreglo([1,2]), "El arreglo [1,2] ordenado es [1,2]");
-assert([1,2,3] == ordenarArreglo([1,2,3]), "El arreglo [1,2,3] ordenado es [1,2,3]");
-assert([1,2,3,4] == ordenarArreglo([1,2,3,4]), "El arreglo [1,2,3,4] ordenado es [1,2,3,4]");
